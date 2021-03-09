@@ -1,0 +1,66 @@
+
+html {
+	background-color: skyblue;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+	max-height: 900px;
+}
+
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #C004D9;
+}
+
+.header-title {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+.header-slogan {
+	margin: 0;
+}
+
+.content-area {
+	display: flex;
+	border-top: 5px solid #AB05F2;
+	border-bottom: 5px solid #AB05F2;
+}
+
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+}
+
+.sidebar {
+	width: 34%;
+	background-color: #138AF2;
+	padding: 20px 40px;
+	font-size: 85%;
+}
+
+.footer {
+	text-align: center;
+	font-size: 80%;
+	color: #C004D9;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
