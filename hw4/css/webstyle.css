@@ -1,0 +1,256 @@
+html
+{
+	background-color: grey;	
+	box-sizing:border-box;
+}
+
+body{
+	margin: 0 auto;
+	width: 1260px;
+	height:880px;
+	box-sizing:border-box;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1260px;
+	height:880px;
+	background-color: #EDF2C5;
+box-sizing:border-box;
+}
+
+.head-a{
+	box-sizing:border-box;
+    float: left;
+    font-family:Arial Black; color: #778A50;
+	font-size: 36px;
+	display: flex;
+	
+	margin-bottom: 8px;
+	margin-left:160px; 
+	margin-top: 53px;
+	height: 42px;
+	
+}
+
+.icon {
+    
+	box-sizing:border-box;
+    display:flex;
+	float: right;
+	flex-direction: row; 
+	justify-content:center;
+	align-items: flex-end;
+	background-color: #EDF2C5;
+	color: #778A50;
+	
+	margin-left: 468px;
+	margin-right: 160px;
+	margin-top:61px;
+	margin-bottom: 17px;
+	height: 25px;
+	width: 200px;
+}
+
+.fb{
+	display:flex; 
+	height: 25px;
+    width:25px;
+    margin-right:5px; 	
+}
+
+
+.ig{
+	display:flex; 
+	height: 25px;
+    width:25px;
+    border-right:1px solid #778A50;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+
+#login{
+font-family: Arial Black;
+justify-content: center;
+align-items: center;
+border : 1px solid #778A50;
+display: flex;
+color:#778A50;
+ height:25px;
+ width:60px;
+ border-radius: 3px #778A50;
+font-size: 12px;
+ margin-left: 10px;
+}
+
+#join{
+  background-color: #EDF2C5;
+font-family: Arial Black;font-size: 12px;
+justify-content: center;
+align-items: center;	
+display: flex;
+border:1px solid #778A50;
+height: 25px;width:50px;
+border-radius: 3px #778A50;
+ margin-left: 10px;
+ 
+}
+
+
+.list1{
+box-sizing:border-box;
+display: flex;	
+margin-left:  160px;
+margin-right: 160px;
+background-color: #778A50;
+height: 44px;
+width:940px;
+font-size:16px;
+font-family:Arial Black;
+color:#EDF2C5;
+margin-bottom:0px;
+margin-top:0px;
+align-items: center;
+text-align:left; 
+font-size: 16px;
+}
+
+.op{
+
+display: inline-flex;
+margin-left:0px;
+
+}
+
+
+ul{
+	padding-left: 0px;
+	margin-left:30px;
+	margin-right:30px;  
+display: inline-flex;
+
+box-sizing:border-box;
+
+}
+
+
+.middle{
+
+box-sizing:border-box;	
+display: flex;
+justify-content: center;
+margin-top:20px ;
+margin-left:160px;
+margin-right:160px;
+height:448px ;	
+width: 940px;
+}
+
+
+
+.left{
+       display: flex;      
+       float: left;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       margin-bottom:35px; 
+}
+
+#a{
+display: flex;
+height: 140px;
+margin-left: 160px;
+margin-right: 12px;
+}
+
+#b{
+display: flex;
+margin-right: 12px;
+height: 140px;
+}
+
+#c{
+display: flex;
+height: 140px;	
+}
+
+
+
+.right{
+      display: flex;
+      flex-direction: column;
+	   float: right;
+	   width:445px;height: 140PX;
+	   margin-bottom:35px;
+	   margin-right:160PX; 
+	   background-color:#F7FBDA;
+	   color: #7D7D7D; 
+
+}
+
+.text1{
+	font-size: 12px;font-family:ArialMT Regular; 
+	margin-top: 16px;
+	padding-bottom:16px;
+	margin-left:15px;
+	border-bottom:1px solid #7D7D7D ;
+	line-height: 1.33;
+	width: 414px;
+
+}
+.text2{
+font-size: 12px;font-family:ArialMT Regular; 
+margin-top: 16px;  margin-left:15px;
+line-height: 1.33; margin-bottom;
+}
+
+#leftbar
+	{
+		display: flex;
+		float: left;
+		height:45px ;width:445px;
+		background-color:#778A50;
+		margin-left:160px;
+        margin-right:50px;
+        margin-top:30px; 
+        margin-bottom:15px ;
+font-family: Arial Black;
+font-size: 16px;
+color: #EDF2C5;
+align-items: center;
+    box-sizing:border-box; padding-left:30px;padding-bottom: 15px;padding-top:15px;
+	}
+
+#rightbar
+    {
+      display: flex;
+	  float: right;
+      height:45px ;width:445px;
+      background-color:#778A50;
+      margin-right:160px;
+      margin-top:30px;
+      margin-bottom:15px ;
+     font-family: Arial Black;
+     font-size: 16px; 
+     color: #EDF2C5; 
+     align-items: center; 
+      box-sizing:border-box; padding-left:30px;padding-bottom:16px;padding-top: 17px; 
+    }
+
+
+
+.footer{
+	display: flex;
+	box-sizing:border-box;
+	background-color: #778A50;
+	width:1260px; 
+	height:60px;
+	font-family:ArialMT Regular;
+	align-items: center;
+	justify-content: center;
+    color: #EDF2C5;
+    margin-top: 0px;
+  
+}
